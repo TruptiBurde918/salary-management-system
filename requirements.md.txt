@@ -1,0 +1,19 @@
+# Requirements Document: Salary Management System
+
+## Goal
+To build a web-based application for ACME org's HR team to manage salary data for 10,000 employees, replacing manual Excel-based tracking.
+
+## Scope & Features
+- **Dashboard:** High-level overview of payroll (Total Payroll, Average Salary).
+- **Employee List:** View all 10,000 employees using server-side pagination for performance.
+- **Search & Filter:** Search by Job Title and Country.
+- **CRUD Operations:** Add, Edit, and Delete employee records.
+
+## Out of Scope
+- **Authentication:** Focus is on core engineering and AI workflow; auth is deferred to Phase 2.
+- **Complex Tax Logic:** Salaries are managed as gross figures.
+
+## Technical Decisions
+- **Backend:** Java 17, Spring Boot, Spring Data JPA.
+- **Frontend:** Angular, Material UI.
+- **Database:** MySQL.
